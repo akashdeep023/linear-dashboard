@@ -94,16 +94,17 @@ const SidebarItemBox = ({
             <div
                 className={`group-hover:flex hidden flex-col mx-6 gap-1 bg-linear-to-t dark:from-blue-400/10 from-white/30 dark:to-blue-400/0 to-white/0 rounded-xl ${open ? "max-h-96 py-2" : "max-h-0 py-0"} px-2 overflow-hidden transition-all duration-500 ease-in-out`}
             >
-                {side?.items.map((item) => {
-                    return (
-                        <a
-                            href={item.href}
-                            className="text-sm dark:hover:bg-blue-400/10 hover:bg-white/30 py-1 px-2.5 rounded-full"
-                        >
-                            {item.label}
-                        </a>
-                    );
-                })}
+                {side?.items &&
+                    side?.items.map((item) => {
+                        return (
+                            <a
+                                href={item.href}
+                                className="text-sm dark:hover:bg-blue-400/10 hover:bg-white/30 py-1 px-2.5 rounded-full"
+                            >
+                                {item.label}
+                            </a>
+                        );
+                    })}
             </div>
         </div>
     );
