@@ -20,17 +20,17 @@ const SidebarBox = ({
     return (
         <div>
             <p className="text-xs py-3 px-2 opacity-60">
-                <span className="group-hover:hidden ml-[5px] text-sm flex">
+                <span className="group-hover:hidden ml-[5px] text-sm block h-3">
                     ...
                 </span>
-                <span className="hidden group-hover:inline">
+                <span className="hidden group-hover:block h-3">
                     {sidebarItems.label}
                 </span>
             </p>
             <div>
-                {sidebarItems?.items.map((side) => {
+                {sidebarItems?.items.map((side, idx) => {
                     return (
-                        <div>
+                        <div key={idx + "sidebox"}>
                             {side?.href ? (
                                 <a
                                     href={side?.href || "#"}
@@ -95,9 +95,10 @@ const SidebarItemBox = ({
                 className={`group-hover:flex hidden flex-col mx-6 gap-1 bg-linear-to-t dark:from-blue-400/10 from-white/30 dark:to-blue-400/0 to-white/0 rounded-xl ${open ? "max-h-96 py-2" : "max-h-0 py-0"} px-2 overflow-hidden transition-all duration-500 ease-in-out`}
             >
                 {side?.items &&
-                    side?.items.map((item) => {
+                    side?.items.map((item, idx) => {
                         return (
                             <a
+                                key={idx + "sideitem"}
                                 href={item.href}
                                 className="text-sm dark:hover:bg-blue-400/10 hover:bg-white/30 py-1 px-2.5 rounded-full"
                             >

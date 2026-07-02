@@ -12,7 +12,7 @@ import {
 
 const MailCat = () => {
     return (
-        <div className="min-w-56">
+        <div className="min-w-56 h-[calc(100dvh-75px)] overflow-auto">
             <p className="text-xs py-1 px-2 mt-4 opacity-60">Mailboxes</p>
             <div className="text-sm *:mb-1">
                 <a
