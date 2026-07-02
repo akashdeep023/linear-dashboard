@@ -96,7 +96,7 @@ const InboxBox = () => {
                     <a
                         key={idx + "user"}
                         href={"#"}
-                        className={`flex gap-2 items-center dark:hover:bg-blue-400/10 hover:bg-white/30 px-2.5 rounded-lg h-14 ${idx == 0 && "dark:bg-blue-400/10 bg-white/30"} p-2.5 mt-1.5`}
+                        className={`flex gap-2 items-center dark:hover:bg-blue-400/10 hover:bg-emerald-700/10 px-2.5 rounded-lg h-14 ${idx == 0 && "dark:bg-blue-400/10 bg-emerald-700/10"} p-2.5 mt-1.5`}
                     >
                         <img
                             alt="Profile"

@@ -11,7 +11,7 @@ const Layout = ({children}: {children: React.ReactNode}) => {
         >
             <Sidebar />
             <Topside />
-            <main className="rounded-2xl border dark:border-blue-400/20 border-white/40 ml-14 mr-14 h-[calc(100dvh-56px)] p-4 flex gap-6">
+            <main className="rounded-2xl border dark:border-blue-400/20 border-white/40 ml-14 mr-14 h-[calc(100dvh-64px)] p-4 flex gap-6 dark:bg-blue-400/5 bg-white/30">
                 {children}
             </main>
             <Rightside />

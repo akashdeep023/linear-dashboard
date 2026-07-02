@@ -17,7 +17,7 @@ const MailCat = () => {
             <div className="text-sm *:mb-1">
                 <a
                     href={"#"}
-                    className="flex gap-2 items-center py-1.5 dark:hover:bg-blue-400/10 hover:bg-white/30 px-2.5 rounded-lg h-9 dark:bg-blue-400/10 bg-white/30"
+                    className="flex gap-2 items-center py-1.5 dark:hover:bg-blue-400/10 hover:bg-emerald-700/10 px-2.5 rounded-lg h-9 dark:bg-blue-400/10 bg-emerald-700/10"
                 >
                     <Inbox
                         strokeWidth={1.7}
@@ -27,7 +27,7 @@ const MailCat = () => {
                 </a>
                 <a
                     href={"#"}
-                    className="flex gap-2 items-center py-1.5 dark:hover:bg-blue-400/10 hover:bg-white/30 px-2.5 rounded-lg h-9"
+                    className="flex gap-2 items-center py-1.5 dark:hover:bg-blue-400/10 hover:bg-emerald-700/10 px-2.5 rounded-lg h-9"
                 >
                     <Star
                         strokeWidth={1.7}
@@ -37,7 +37,7 @@ const MailCat = () => {
                 </a>
                 <a
                     href={"#"}
-                    className="flex gap-2 items-center py-1.5 dark:hover:bg-blue-400/10 hover:bg-white/30 px-2.5 rounded-lg h-9"
+                    className="flex gap-2 items-center py-1.5 dark:hover:bg-blue-400/10 hover:bg-emerald-700/10 px-2.5 rounded-lg h-9"
                 >
                     <TimerResetIcon
                         strokeWidth={1.7}
@@ -47,7 +47,7 @@ const MailCat = () => {
                 </a>
                 <a
                     href={"#"}
-                    className="flex gap-2 items-center py-1.5 dark:hover:bg-blue-400/10 hover:bg-white/30 px-2.5 rounded-lg h-9"
+                    className="flex gap-2 items-center py-1.5 dark:hover:bg-blue-400/10 hover:bg-emerald-700/10 px-2.5 rounded-lg h-9"
                 >
                     <Flag
                         strokeWidth={1.7}
@@ -57,7 +57,7 @@ const MailCat = () => {
                 </a>
                 <a
                     href={"#"}
-                    className="flex gap-2 items-center py-1.5 dark:hover:bg-blue-400/10 hover:bg-white/30 px-2.5 rounded-lg h-9"
+                    className="flex gap-2 items-center py-1.5 dark:hover:bg-blue-400/10 hover:bg-emerald-700/10 px-2.5 rounded-lg h-9"
                 >
                     <SendHorizonal
                         strokeWidth={1.7}
@@ -67,7 +67,7 @@ const MailCat = () => {
                 </a>
                 <a
                     href={"#"}
-                    className="flex gap-2 items-center py-1.5 dark:hover:bg-blue-400/10 hover:bg-white/30 px-2.5 rounded-lg h-9"
+                    className="flex gap-2 items-center py-1.5 dark:hover:bg-blue-400/10 hover:bg-emerald-700/10 px-2.5 rounded-lg h-9"
                 >
                     <PenBoxIcon
                         strokeWidth={1.7}
@@ -77,7 +77,7 @@ const MailCat = () => {
                 </a>
                 <a
                     href={"#"}
-                    className="flex gap-2 items-center py-1.5 dark:hover:bg-blue-400/10 hover:bg-white/30 px-2.5 rounded-lg h-9"
+                    className="flex gap-2 items-center py-1.5 dark:hover:bg-blue-400/10 hover:bg-emerald-700/10 px-2.5 rounded-lg h-9"
                 >
                     <Info
                         strokeWidth={1.7}
@@ -87,7 +87,7 @@ const MailCat = () => {
                 </a>
                 <a
                     href={"#"}
-                    className="flex gap-2 items-center py-1.5 dark:hover:bg-blue-400/10 hover:bg-white/30 px-2.5 rounded-lg h-9"
+                    className="flex gap-2 items-center py-1.5 dark:hover:bg-blue-400/10 hover:bg-emerald-700/10 px-2.5 rounded-lg h-9"
                 >
                     <Trash2
                         strokeWidth={1.7}
@@ -110,7 +110,7 @@ const MailCat = () => {
                         <a
                             href={"#"}
                             key={idx + "cate"}
-                            className="flex gap-2 items-center py-1.5 dark:hover:bg-blue-400/10 hover:bg-white/30 px-2.5 rounded-lg h-9"
+                            className="flex gap-2 items-center py-1.5 dark:hover:bg-blue-400/10 hover:bg-emerald-700/10 px-2.5 rounded-lg h-9"
                         >
                             <FolderClosed
                                 strokeWidth={1.7}
