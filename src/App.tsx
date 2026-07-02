@@ -1,8 +1,9 @@
 import {useEffect} from "react";
 import InboxBox from "./components/InboxBox";
-import InboxDetais from "./components/InboxDetais";
+// import InboxDetais from "./components/InboxDetais";
 import Layout from "./components/Layout";
 import MailCat from "./components/MailCat";
+import Contact from "./components/Contact";
 
 function App() {
     useEffect(() => {
@@ -16,7 +17,8 @@ function App() {
         <Layout>
             <MailCat />
             <InboxBox />
-            <InboxDetais />
+            <Contact />
+            {/* <InboxDetais /> */}
         </Layout>
     );
 }

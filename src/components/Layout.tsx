@@ -6,7 +6,7 @@ import Rightside from "./Rightside";
 const Layout = ({children}: {children: React.ReactNode}) => {
     return (
         <div
-            className="h-screen w-full relative text-blue-950 dark:text-blue-200 bg-[url('https://linear-next.avidtemplates.com/img/misc/body.jpg')]
+            className="h-screen min-w-fit relative text-blue-950 dark:text-blue-200 bg-[url('https://linear-next.avidtemplates.com/img/misc/body.jpg')]
     dark:bg-[url('https://linear-next.avidtemplates.com/img/misc/body-dark.png')] bg-cover bg-center bg-no-repeat"
         >
             <Sidebar />
